@@ -8,7 +8,7 @@ Train a text-conditioned segmentation model that accepts an image and a natural-
 
 ### Model: CLIPSeg (Fine-tuned)
 
-We use **CLIPSeg** (`CIDAS/clipseg-rd64-refined`), which combines CLIP's pre-trained vision-language encoders with a lightweight segmentation decoder.
+Usd **CLIPSeg** (`CIDAS/clipseg-rd64-refined`), which combines CLIP's pre-trained vision-language encoders with a lightweight segmentation decoder.
 
 **Fine-tuning strategy:**
 - **Frozen:** CLIP vision encoder + text encoder (leveraging pre-trained alignment)
