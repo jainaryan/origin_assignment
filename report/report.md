@@ -40,6 +40,8 @@ As a baseline, we rigorously evaluated **CLIPSeg (zero-shot)** without any fine-
 | | Valid | 201 |
 | | Test | 4 |
 
+*\* Note: The Drywall-Join-Detect dataset was strictly used exactly as provided by the original author on Roboflow, which did not contain a pre-allocated test split.*
+
 ### Preprocessing
 - **Ground Truth Parsing:** The original Roboflow datasets primarily contained coarse bounding box annotations. The data pipeline automatically converts these detections into dense rectangular binary masks. This required the fine-tuned decoder to intelligently isolate the true semantic boundaries (hairline cracks or taping seams) from within the noisy, rectangular bounding-box approximations.
 - Image resizing to 352×352 (CLIPSeg native resolution)
