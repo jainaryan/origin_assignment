@@ -1,0 +1,26 @@
+# Datasets (Downloaded locally)
+data/processed/
+data/raw/
+data/crack_clahe/
+
+# Large Model Checkpoints (GitHub limit 100MB)
+outputs/checkpoints/*.pth
+
+# Python Environments
+venv/
+env/
+.env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and OS Meta
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Old zips
+*.zip

@@ -1,0 +1,162 @@
+{
+  "overall": {
+    "miou": 0.11264980983027698,
+    "dice": 0.16256476202934964,
+    "count": 451,
+    "avg_inference_ms": 116.70983762804526
+  },
+  "per_dataset": {
+    "taping": {
+      "miou": 0.021614587628684536,
+      "dice": 0.03167255182516489,
+      "count": 250
+    },
+    "crack": {
+      "miou": 0.22587769814071532,
+      "dice": 0.3253660185022162,
+      "count": 201
+    }
+  },
+  "per_sample": [
+    {
+      "image_id": "2000x1500_10_resized_jpg.rf.7a4d808994b9880f703a0d891e8d51ef",
+      "dataset_key": "taping",
+      "iou": 0.148169231180886,
+      "dice": 0.2580965020726885,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_14_resized_jpg.rf.281bc0d779e2138d4affddc956be659f",
+      "dataset_key": "taping",
+      "iou": 9.469696968800217e-11,
+      "dice": 9.469696968800217e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_16_resized_jpg.rf.2c8486a43038662573ece350576df7d3",
+      "dataset_key": "taping",
+      "iou": 0.10952350980656043,
+      "dice": 0.19742440575636952,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_17_resized_jpg.rf.6547428c1c6ae5b841d433ddb9a22594",
+      "dataset_key": "taping",
+      "iou": 4.928536224498347e-11,
+      "dice": 4.928536224498347e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_20_resized_jpg.rf.8d96748b59ba7c979a19feb943242917",
+      "dataset_key": "taping",
+      "iou": 0.3137358927448426,
+      "dice": 0.47762399501195324,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_21_resized_jpg.rf.a260d6194a3531c4ac73dd7b5f241b09",
+      "dataset_key": "taping",
+      "iou": 0.2648084387976752,
+      "dice": 0.41873287790999875,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_22_resized_jpg.rf.842f265d1960fdff3690ce65d01b2a81",
+      "dataset_key": "taping",
+      "iou": 4.5873663927433656e-11,
+      "dice": 4.5873663927433656e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_23_resized_jpg.rf.2b975410256245b5fb430d738537e6f1",
+      "dataset_key": "taping",
+      "iou": 9.216589860901696e-11,
+      "dice": 9.216589860901696e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_26_resized_jpg.rf.013a58baeb8f5fda4105a70505fc4b10",
+      "dataset_key": "taping",
+      "iou": 2.1534552188523492e-11,
+      "dice": 2.1534552188523492e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_27_resized_jpg.rf.031ab0f4e6dcb59da72e3f52d8865d46",
+      "dataset_key": "taping",
+      "iou": 2.446962096497248e-11,
+      "dice": 2.446962096497248e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_2_resized_jpg.rf.38ab948e5688101200f241ebaa396651",
+      "dataset_key": "taping",
+      "iou": 1.4880952378737952e-10,
+      "dice": 1.4880952378737952e-10,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_30_resized_jpg.rf.01ad7013ff58ffd28dd5e639b3dbed38",
+      "dataset_key": "taping",
+      "iou": 0.6073599490672488,
+      "dice": 0.7557236316837241,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_31_resized_jpg.rf.7719cbaeab006d0b26d5726d685080cf",
+      "dataset_key": "taping",
+      "iou": 0.06266860350953389,
+      "dice": 0.11794571378520174,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_35_resized_jpg.rf.eddaf4384439030097e84fe76b0b4de8",
+      "dataset_key": "taping",
+      "iou": 0.0003960508359388936,
+      "dice": 0.000791788055289659,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_3_resized_jpg.rf.a05270976b60335008a29019b1fada84",
+      "dataset_key": "taping",
+      "iou": 6.764069263611737e-11,
+      "dice": 6.764069263611737e-11,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_63_resized_jpg.rf.7e2a817b5a3b73d65cd97235f861ee68",
+      "dataset_key": "taping",
+      "iou": 0.1788367131948935,
+      "dice": 0.3034121879479384,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_6_resized_jpg.rf.10b86dc07de0a3764b25be5400ee9d03",
+      "dataset_key": "taping",
+      "iou": 0.003868865879055938,
+      "dice": 0.007707910817599194,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_70_resized_jpg.rf.9b56539a13ed950ebc09da05fea53704",
+      "dataset_key": "taping",
+      "iou": 0.3462700090748097,
+      "dice": 0.5144139091496769,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_71_resized_jpg.rf.17c807cf4d3e5e2070a9b7c4b85c611c",
+      "dataset_key": "taping",
+      "iou": 0.31521254046314817,
+      "dice": 0.4793332343757697,
+      "prompt": "segment taping area"
+    },
+    {
+      "image_id": "2000x1500_75_resized_jpg.rf.1a37cfc2d307931ea94ab06703cc2b33",
+      "dataset_key": "taping",
+      "iou": 0.2063627041558799,
+      "dice": 0.34212381308245826,
+      "prompt": "segment taping area"
+    }
+  ]
+}
